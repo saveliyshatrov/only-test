@@ -1,0 +1,16 @@
+{
+  "name": "only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "tsc && node index.js && rm *.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
