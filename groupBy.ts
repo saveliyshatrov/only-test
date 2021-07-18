@@ -2,7 +2,7 @@ interface OBJ{
     [key: string]: Array<any>
 }
 
-export const groupBy = (array:Array<any>, callback: (elem: any) => any): object => {
+export const groupBy = (array:Array<any>, callback: (elem: any) => any): OBJ => {
     let obj: OBJ = {}
     for(let i = 0; i < array.length; i++){
         let res = callback(array[i])
